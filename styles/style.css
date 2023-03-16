@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Red Rose", cursive;
+}
+body{
+    background-image: url("../assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+nav{
+display: flex;
+padding: 10px 20px;
+justify-content: space-between;
+width: 100%;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    gap: 20px;
+    /* line-height: 30px; */
+}
+nav ul li{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Red Rose";
+  font-style: normal;
+    align-items: center;
+    justify-content: center;
+    
+    /* padding: 10px; */
+}
+nav ul li a{
+    display: block;
+    color: #ffff00;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: blanchedalmond;
+    background-color: rgb(61, 56, 56);
+}
+button{
+    /* margin-right:10%; */
+    color: #ffffff;
+    background-color: hsl(358, 52%, 52%);
+    padding: 10px 20px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    line-height: 20px;
+    font-family: "Red Rose";
+  font-style: normal;
+}
+.btn{
+    color: #ffffff;
+    background-color: hsl(358, 52%, 52%);
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    line-height: 20px;
+    font-family: "Red Rose";
+  font-style: normal;
+}
+
+/* main section */
+main {
+
+padding-top: 10%;
+}
+main h1{
+    color: #ffff00;
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    font-family: "Dela Gothic One", cursive;
+  font-style: normal;
+}
+
+footer img{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+
+}
